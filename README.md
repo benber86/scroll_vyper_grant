@@ -47,3 +47,31 @@ A big part of the increasing interest in Vyper among developers comes from more 
 
 We are committed to ensuring Scroll becomes a first-class citizen in the Vyper ecosystem. We want Vyper tooling to make deployment on Scroll easy and secure by better handling the chain's differences (opcodes, precompiled contracts) with Ethereum mainnet, making network management seamless and offering unmatched developer experience. 
 
+
+## Is your project deployed on Scroll? 
+
+Yes (probably? any vyper contracts deployed there?)
+
+
+## Is your project deployed on other chains? 
+
+Yes
+
+## What are you hoping to accomplish with this grant? 
+
+We are planning to use this grant to fund a developer to work on the development of two crucial Vyper developer tools: Titanoboa and Gaboon. These tools have proven essential in driving new Vyper adoption and their continued development will make smart contract development more accessible and more productive.
+
+Several smart contract development frameworks currently support Vyper but each come with significant drawbacks (Foundry is hard to set up, Brownie is deprecated, Ape is slow) and its own UX issues. The grant would allow us to make Titanoboa and Gaboon the best available alternative with a particular focus on Scroll integration and cross-chain capacities. 
+
+Titanoboa, as an interpreter, already makes running tests 100x faster than by using a simulated EVM like other frameworks and offers many other unique capacities (opcode patching, automatic fuzzing, custom precompiles). These advantages, however, can be hard to leverage for new developers. Other important features for UX such as wallet and network management, chain forking, abi fetching are available but still rudimentary UX-wise. and interacting with third-party contracts in other languages is not always straightforward.
+
+The grant would allow for the improvement of these features either directly in the Titanoboa codebase or through the new Gaboon framework. Gaboon would offer network management, deployment history and log management, integration with static analysis, fuzzing and symbolic testing tools, a CLI and REPL, and better support for non-Vyper languages.
+
+## Milestone and roadmap
+
+1. Enhance titanoboa's EVM detection capacity to alert to differences in opcode availability or behavior and pre-compiled contracts between scroll and mainnet (1 month)
+2. Improve titanoboa's integration of chain explorers like Scrollscan and associated API key management (1 week)
+3. Add deployment history and log management features to titanoboa (3 weeks)
+4. Secure keystore and account management (1 month)
+5. Integration with security tools in Gaboon: halmos, medusa (1 month)
+6.  
