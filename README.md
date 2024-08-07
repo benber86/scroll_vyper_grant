@@ -43,8 +43,7 @@ We want to help the Scroll ecosystem grow by offering a better developer experie
 
 With its pythonic, easy to learn syntax Vyper is uniquely positioned to attract new developers to Scroll, particularly those already familiar with Python. But Vyper's latest version and its convenient dev tool suite also appeal to established web3 developers, the majority of whom would prefer it to Solidity for their next project  (https://x.com/0xKoga/status/1805524364948893756). 
 
-A big part of the increasing interest in Vyper among developers comes from more mature and accessible tooling. Titanoboa, a Vyper interpreter, also doubles as a tool that enables faster testing, debugging, and deployment of smart contracts, as well as experimental and collaborative work through shared notebooks (https://try.vyperlang.org/)
+A big part of the increasing interest in Vyper among developers comes from more mature and accessible tooling. Tools like Titanoboa and the upcoming Gaboon enable faster testing, debugging, and deployment of smart contracts, as well as experimental and collaborative work through shared notebooks (https://try.vyperlang.org/).
 
-
-We are committed to ensuring Scroll becomes a first-class citizen in the Vyper ecosystem. By prioritizing cross-chain development and making deployment on Scroll easy and secure, we aim to facilitate seamless integration for projects considering multi-chain presence. 
+We are committed to ensuring Scroll becomes a first-class citizen in the Vyper ecosystem. We want Vyper tooling to make deployment on Scroll easy and secure by better handling the chain's differences (opcodes, precompiled contracts) with Ethereum mainnet, making network management seamless and offering unmatched developer experience. 
 
