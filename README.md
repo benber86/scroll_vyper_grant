@@ -62,7 +62,7 @@ Yes
 
 We are planning to use this grant to fund a developer to work on the development of two crucial Vyper developer tools: Titanoboa and Gaboon. These tools have proven essential in driving new Vyper adoption and their continued development will make smart contract development more accessible and productive.
 
-Several smart contract development frameworks currently support Vyper but each come with significant drawbacks (Foundry is hard to set up, Brownie is deprecated, Ape is slow) and its own UX issues. The grant would allow us to make Titanoboa and Gaboon the best available alternative with a particular focus on Scroll integration and cross-chain capacities. 
+Several smart contract development frameworks currently support Vyper but each come with significant drawbacks (Foundry is hard to set up, Brownie is deprecated, Ape is not suited for fuzzing) and its own UX issues. The grant would allow us to make Titanoboa and Gaboon the best available alternative with a particular focus on Scroll integration and cross-chain capacities. 
 
 Titanoboa, as an interpreter, already makes running tests 100x faster than by using a simulated EVM like other frameworks and offers many other unique capacities (opcode patching, automatic fuzzing, custom precompiles). These advantages, however, can be hard to leverage for new developers. Other important features for UX such as wallet and network management, chain forking, ABI fetching are available but still rudimentary UX-wise. and interacting with third-party contracts in other languages is not always straightforward.
 
