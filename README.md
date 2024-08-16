@@ -12,11 +12,17 @@ Other
 ## Project links
 
 https://github.com/vyperlang/vyper
+
 https://github.com/vyperlang/titanoboa
+
 https://github.com/vyperlang/gaboon/tree/refactor
+
 https://vyperlang.org/
+
 https://twitter.com/vyperlang/
+
 https://defillama.com/languages
+
 https://try.vyperlang.org/
 
 ## Team description
